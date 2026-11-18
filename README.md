@@ -59,14 +59,13 @@ Massachusetts has set aggressive electrification targets, but heat pump adoption
 
 ```
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb          # Municipal data integration
-│   ├── 02_weather_processing.ipynb     # ERA5-Land HDD/CDD calculation
-│   ├── 03_acs_fuel_processing.ipynb    # ACS heating fuel shares
-│   ├── 04_electricity_processing.ipynb # Residential electricity metrics
-│   ├── 05_adoption_analysis.ipynb      # Adoption metric calculation
-│   ├── 06_regression_residuals.ipynb   # OLS models and residual analysis
-│   ├── 07_mapping.ipynb                # GeoPandas choropleth maps
-│   └── 08_resstock_analysis.ipynb      # Building simulation results
+│   ├── 01_build_municipal_dataset.ipynb           # Data cleaning, merging, adoption rates
+│   ├── 02_climate_and_electricity_features.ipynb   # ERA5-Land HDD/CDD, electricity metrics
+│   ├── 03_municipal_eda.ipynb                      # Exploratory analysis, sensitivity checks
+│   ├── 04_regression_and_residuals.ipynb           # OLS models, interactions, residuals
+│   ├── 05_solar_pv_context.ipynb                   # Solar adoption and heat pump correlation
+│   ├── 06_resstock_validation.ipynb                # Building simulation validation
+│   └── 07_resstock_scenarios.ipynb                 # Grid impact scenario analysis
 ├── src/                                # Analysis utility scripts
 ├── figures/
 │   ├── ma_heat_pump_adoption_map.png
