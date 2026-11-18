@@ -1,0 +1,43 @@
+# Raw data (restricted / large)
+data/raw/
+data/intermediate/
+
+# Mass Save restricted installation data
+*mass_save*.csv
+*masssave*.csv
+*heat_pump_install*.csv
+*rebate*.csv
+
+# Large simulation files
+*.epw
+*.h5
+*.parquet
+*.nc
+*.grib
+
+# Credentials / API keys
+.env
+*.key
+cdsapirc
+.cdsapirc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
